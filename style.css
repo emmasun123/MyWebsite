@@ -1,6 +1,6 @@
 
 body {
-  background-color:#07310f;
+  background-color:#023219;
 }
 
 .hero-text {
@@ -42,11 +42,77 @@ li a {
 }
 
 li a:hover {
-  background-color: #248f26;
+  background-color: #286f29;
+  text-decoration: underline;
 }
 
 .navigation {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
   font-size: large;
+}
+
+.intro {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:2em;
+  color:#a3ff87;
+  border-style:solid;
+  background-color:#2a8826;
+  margin-top:30px;
+}
+
+.intro-text {
+justify-content: left;
+display:flex;
+margin-left:20px;
+}
+
+.paragraph {
+  color: #afff96;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:20px;
+  display:grid;
+  grid-template-columns: 1fr 4fr;
+  gap:50px;
+  margin-top: 30px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom: 30px;
+  background-color: #165b24;
+  border-radius: 50px;
+}
+
+.paragraph-image {
+border-radius: 50px;
+border-style:double;
+background-color:#7ed942;
+opacity:70%;
+}
+
+footer {
+  border-style: solid;
+  border-color:#7ed942;
+  background-color: #2a8826;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#a3ff87;
+}
+
+.footer-text {
+  margin-left: 30px;
+  margin-right:30px;
+}
+
+.about {
+background-color:#0c4820;
+border-style: solid;
+border-radius: 30px;
+color:#a3ff87;
+margin-top:50px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-info {
+  margin-left:30px;
+  margin-right:30px;
+  font-size:18px;
 }
